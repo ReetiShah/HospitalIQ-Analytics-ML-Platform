@@ -350,14 +350,14 @@ def _insert_synthetic_metrics(cursor, loc_map, time_map, dis_map):
             for dis_name, dis_id in dis_map.items():
                 rows.append((
                     loc_id, time_id, dis_id,
-                    round(float(np.random.normal(72, 10)),  2),   # hcahps_score
-                    round(float(np.random.normal(145, 35)), 1),   # er_wait_minutes
-                    int(np.random.randint(8_000, 120_000)),        # total_er_visits
-                    round(float(np.random.uniform(55, 95)),  2),  # bed_occupancy_rate
-                    int(np.random.randint(5_000, 80_000)),         # total_admissions
-                    round(float(np.random.normal(4.2, 1.1)), 1),  # avg_length_of_stay
-                    round(float(np.random.uniform(5, 250)),  2),  # mortality_rate
-                    round(float(np.random.uniform(2, 35)),   2),  # chronic_prevalence
+                    round(float(np.random.normal(72, 10)),  2),  
+                    round(float(np.random.normal(145, 35)), 1),  
+                    int(np.random.randint(8_000, 120_000)),      
+                    round(float(np.random.uniform(55, 95)),  2),  
+                    int(np.random.randint(5_000, 80_000)),        
+                    round(float(np.random.normal(4.2, 1.1)), 1),
+                    round(float(np.random.uniform(5, 250)),  2), 
+                    round(float(np.random.uniform(2, 35)),   2),  
                 ))
 
     bulk_insert(cursor, "fact_hospital_metrics",
