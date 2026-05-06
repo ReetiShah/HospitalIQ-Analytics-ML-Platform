@@ -4,7 +4,7 @@
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 | Feature | Description | Use Case |
 |---------|-------------|----------|
@@ -14,7 +14,7 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 hospital_analytics/
@@ -33,7 +33,7 @@ hospital_analytics/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -68,9 +68,9 @@ python 3_analytics_engine.py
 
 ---
 
-## 💡 Usage Examples
+##  Usage Examples
 
-### 📊 Feature 1: Patient Flow Monitor
+###Feature 1: Patient Flow Monitor
 Track patient appointment patterns and no-show trends across regions.
 
 ```python
@@ -91,7 +91,7 @@ pfm.age_group_noshow(year=2022)
 pfm.realtime_snapshot()
 ```
 
-### ⏱️ Feature 2: ER Wait Time Predictor
+### Feature 2: ER Wait Time Predictor
 Predict emergency room wait times using machine learning.
 
 ```python
@@ -120,7 +120,7 @@ predictor.state_er_heatmap(year=2022)
 predictor.feature_importance()
 ```
 
-### 🛏️ Feature 3: Bed Occupancy Forecast
+### Feature 3: Bed Occupancy Forecast
 Forecast hospital bed availability using time-series analysis.
 
 ```python
@@ -140,7 +140,7 @@ forecaster.capacity_alerts(year=2023)
 
 ---
 
-## 📊 Data Schema
+## Data Schema
 
 ### Input Data Files & Columns
 
@@ -172,7 +172,7 @@ state, year, disease_category, mortality_rate
 
 ---
 
-## 🏗️ Technical Stack
+## Technical Stack
 
 - **Backend**: Python 3.x
 - **Database**: MySQL (Star Schema)
@@ -183,7 +183,7 @@ state, year, disease_category, mortality_rate
 
 ---
 
-## 📈 Pipeline Overview
+##  Pipeline Overview
 
 ```
 Raw Data (CSV) 
@@ -199,20 +199,6 @@ Raw Data (CSV)
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to fork this repository, create a feature branch, and submit pull requests for improvements!
-
----
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
----
-
-## ✉️ Questions?
-
-For questions or issues, please open a GitHub issue or reach out to the repository maintainer.
-
-**Happy Analyzing!** 🎯
